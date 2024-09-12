@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="introductionToSpringBoot" />
+        <module name="prod-ready-features" />
+        <module name="SecurityApplication" />
+        <module name="CollegeManagementHomework" />
+        <module name="jpaTuts" />
+        <module name="CakeBakerAssignment" />
+        <module name="springbootwebtutorial" />
+        <module name="datamappingtuts" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CakeBakerAssignment" options="-parameters" />
+      <module name="CollegeManagementHomework" options="-parameters" />
+      <module name="SecurityApplication" options="-parameters" />
+      <module name="datamappingtuts" options="-parameters" />
+      <module name="introductionToSpringBoot" options="-parameters" />
+      <module name="jpaTuts" options="-parameters" />
+      <module name="prod-ready-features" options="-parameters" />
+      <module name="springbootwebtutorial" options="-parameters" />
+    </option>
+  </component>
+</project>
